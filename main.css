@@ -1,10 +1,11 @@
 h1 {
-	color: purple;
+	color: black;
 	font-size: 24px;
 	font-family: Helvetica;
 }
 li {
-	color: pink;
+	color: navy;
 	font-size: 24px;
 	font-family: Helvetica;
 }
+body { background-image: url("http://www.porcelaingres.com/img/collezioni/JUST-BEIGE/big/just_beige_light_beige.jpg"); }
