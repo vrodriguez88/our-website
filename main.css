@@ -1,6 +1,7 @@
 h1 {
 	color: black;
-	font-size: 24px;
+	font-weight: bold;
+	font-size: 50px;
 	font-family: Helvetica;
 }
 li {
@@ -11,5 +12,10 @@ li {
 body { background-image: url("http://www.porcelaingres.com/img/collezioni/JUST-BEIGE/big/just_beige_light_beige.jpg"); }
 img {
 	width: 40%;
-	margin-right: 2000px;
+}
+h2 {
+	color: black;
+	font-weight: bold;
+	font-size: 50px;
+	font-family: Helvetica;
 }
