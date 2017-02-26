@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<link href="main.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<meta charset="UTF-8">
+		<title>TITLE HERE</title>
+		<meta name="description" content="DESCRIBE YOUR WEBSITE">
+		<meta name="keywords" content="KEY, WORDS, HERE">
+	</head>
+
+	<header> 
+		<img src="http://gcmsk12.org/wp-content/uploads/2016/09/college-pennant.png">
+		<h1>How to Apply to College</h1>
+	</header>
+
+	<ul class="menu">
+		<li class="menu-item"><a href="index.html">Home</a></li>
+		<li class="menu-item"><a href="apply.html">Steps to Apply</a></li>
+		<li class="menu-item"><a href="links.html">Helpful Links</a></li>
+		<li class="menu-item"><a href="colleges.html">Top Colleges</a></li>	
+		<li class="menu-item"><a href="sat.html">SAT</a></li>
+		<li class="menu-item"><a href="act.html">ACT</a></li>
+		<li class="menu-item"><a href="sva.html">SAT vs ACT</a></li>
+	</ul>
+	<body>
+		
+
+	<div id="Top Colleges for CompSci"> 
+		<h3>Top Computer Science Colleges in the United States</h1>
+		<li><a href="http://www.cs.cmu.edu/">Carnegie Mellon</a></li>
+		<li><a href="https://www.cis.upenn.edu/index.php">Penn</a></li>
+		<li><a href="https://www.eecs.mit.edu/">Massachusetts Institute of Technology</a></li>
+		<li><a href=https://www-cs.stanford.edu/>Stanford University</a></li>
+		<li><a href="https://eecs.berkeley.edu/academics/undergraduate/cs-ba">Berkeley</a></li>
+		<li><a href="https://www.cs.cornell.edu/">Cornell</a></li>
+		<li><a href="https://www.cs.washington.edu/">University of Washington</a></li>
+		<li><a href="https://www.cs.princeton.edu/">Princeton University</a></li>
+		<li><a href="http://www.cc.gatech.edu/">Georgia Institute of Technology</a></li>
+		<li><a href="https://login.cs.utexas.edu/">University of Texas</a></li>
+		<li><a href="http://www.cms.caltech.edu/">California Institute of Technology</a></li>
+		<li><a href="https://www.cs.wisc.edu/">University of Wisconsin</a></li>
+		<li><a href="http://www.cs.ucla.edu/">UCLA</a></li>
+		<li><a href="https://www.cs.umd.edu/">University of Maryland</a></li>
+	</div>
+
+		<div>
+		<img class="newPics" src="https://economics.sas.upenn.edu/sites/economics.sas.upenn.edu/files/imagecache/page_main_photo/upenn-campus2_0.jpg">
+		<img class="newPics" src="http://cdn.innsight.com/1/assets/themes/berkeleyinn/images/Berkeley-Campinele.jpg">
+		<img class="newPics" src="https://www.runpacers.com/wp/wp-content/uploads/2015/11/Princeton-8.jpg">
+		</div>
+
+
+		<script type="text/javascript"> 
+	
+	var slideIndex = 0;
+	carousel();
+
+	function carousel() {
+    var i;
+    var x = document.getElementsByClassName("newPics");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<link href="main.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<meta charset="UTF-8">
+		<title>TITLE HERE</title>
+		<meta name="description" content="DESCRIBE YOUR WEBSITE">
+		<meta name="keywords" content="KEY, WORDS, HERE">
+	</head>
+	
+	<header> 
+		<img src="http://gcmsk12.org/wp-content/uploads/2016/09/college-pennant.png">
+		<h1>How to Apply to College</h1>
+	</header>
+
+	<ul class="menu">
+		<li class="menu-item"><a href="index.html">Home</a></li>
+		<li class="menu-item"><a href="apply.html">Steps to Apply</a></li>
+		<li class="menu-item"><a href="links.html">Helpful Links</a></li>
+		<li class="menu-item"><a href="colleges.html">Top Colleges</a></li>	
+		<li class="menu-item"><a href="sat.html">SAT</a></li>
+		<li class="menu-item"><a href="act.html">ACT</a></li>
+		<li class="menu-item"><a href="sva.html">SAT vs ACT</a></li>
+
+		</ul>
+	<body>
+
+	<div>
+		<img class="mySlides" src="https://lh3.googleusercontent.com/STeIzP0VzLcdu_o8jDjLJaS3WnbzctGJJorIWKcsQE5FJxWQ3Xr9luh0jztTy1866ZIH1l87anXmDr8=w2880-h1564-rw">
+		<img class="mySlides" src="https://lh4.googleusercontent.com/j8KO6yR7bAU5IWpA5UOyD31ZaA8CuoGn9K96RgwuCCTDX2MoATAblfRyjWPMeJELEOwWKDITmHG13sg=w2880-h1564-rw">
+		<img class="mySlides" src="https://lh4.googleusercontent.com/0-t3THttOrJT6QZNRkPxrDbuYV9yqthaEfYgfV1epWBKjZzzWSD0TebwOyadvIRQJmCo4y-ySpkOFrw=w2880-h1564-rw">
+		
+	</div>
+	<script type="text/javascript"> 
+	var slideIndex = 0;
+	carousel();
+
+	function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+  	</body>
+</html>
